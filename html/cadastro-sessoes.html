@@ -64,41 +64,41 @@
     <!-- Formulário de cadastro de sessões -->
     <form action="/cadastrar-sessao" method="post" id="form-sessao">
 
-        <label for="filmeSalvos">Filme:</label>
+        <label for="filmeSalvos">Filme:</label> <br>
         <select id="filmeSalvos" name="filmeSalvos" required>
             <option value="" disabled selected>Selecione um filme...</option>
             <!-- Opções de filmes serão preenchidas dinamicamente -->
         </select><br><br>
 
 
-        <label for="sala">Sala:</label>
+        <label for="sala">Sala:</label> <br>
         <select id="sala" name="sala" required>
             <option value="" disabled selected>Selecione uma sala...</option>
             <!-- Opções de salas serão preenchidas dinamicamente -->
         </select><br><br>
 
 
-        <label for="horario">Horário:</label>
+        <label for="horario">Horário:</label> <br>
         <input type="datetime-local" id="horario" name="horario" required><br><br>
 
-        <label for="preco">Preço:</label>
+        <label for="preco">Preço:</label> <br>
         <input type="number" id="preco" name="preco" step="0.01" required><br><br>
 
-        <label for="idioma">Idioma:</label>
+        <label for="idioma">Idioma:</label> <br>
         <select id="idioma" name="idioma" required>
             <option value="" disabled selected>Selecione o idioma...</option>
             <option value="Dublado">Dublado</option>
             <option value="Legendado">Legendado</option>
         </select><br><br>
 
-        <label for="tipo">Formato da Sessão:</label>
+        <label for="tipo">Formato da Sessão:</label> <br>
         <select id="tipo" name="tipo" required>
             <option value="" disabled selected>Selecione o formato...</option>
             <option value="2D">2D</option>
             <option value="3D">3D</option>
         </select><br><br>
 
-        <button type="submit">Salvar sessão</button>
+        <button id="btn-salvar-sessao" type="submit">Salvar sessão</button>
 
     </form>
 

@@ -65,13 +65,13 @@
 </div>
 
     <form id="form-sala">
-        <label for="nome">Nome da sala:</label>
+        <label for="nome">Nome da sala:</label> <br>
         <input type="text" id="nome" name="nome" required><br><br>
 
-        <label for="capacidade">Capacidade:</label>
+        <label for="capacidade">Capacidade:</label> <br>
         <input type="number" id="capacidade" name="capacidade" required><br><br>
 
-        <label for="tipo">Tipo de sala:</label>
+        <label for="tipo">Tipo de sala:</label> <br>
         <select id="tipo" name="tipo" required>
             <option value="">Selecione...</option>
             <option value="2D">2D</option>
@@ -79,7 +79,7 @@
             <option value="IMAX">IMAX</option>
         </select><br><br>
 
-        <button type="submit">Salvar sala</button>
+        <button id="btn-salvar" type="submit">Salvar sala</button>
     </form>
 
     <script src="/JS/cadastro-salas.js"></script>

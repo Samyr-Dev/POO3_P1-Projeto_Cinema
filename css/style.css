@@ -5,6 +5,17 @@ h1, h2, h3 {
     
 }
 
+#btn-salvar, #btn-salvar-sessao, #btn-vender {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+     border-radius: 5px; 
+    cursor: pointer;
+}
+
 nav {
     text-align: center;
     margin-top: 20px;

@@ -66,16 +66,16 @@
 </div>
 
 
-                <label for="nomeClient">Nome do Cliente:</label>
+                <label for="nomeClient">Nome do Cliente:</label> <br>
                 <input type="text" id="nomeClient" name="nomeClient" required><br><br>
 
-                <label for="CPF">CPF:</label>
+                <label for="CPF">CPF:</label> <br>
                 <input type="number" id="CPF" name="CPF" required><br><br>
 
-                <label for="assento">Assento:</label>
+                <label for="assento">Assento:</label> <br>
                 <input type="text" id="assento" name="assento" required><br><br>
 
-                <label for="pagamento">Tipo de Pagamento:</label>
+                <label for="pagamento">Tipo de Pagamento:</label> <br>
                 <select id="pagamento" name="pagamento" required>
                     <option value="" disabled selected>Selecione o tipo de pagamento...</option>
                     <option value="cartao">Cartão</option>
@@ -83,7 +83,7 @@
                     <option value="dinheiro">Dinheiro</option>
                 </select><br><br>
 
-                <button type="submit">Vender Ingressos</button>
+                <button id="btn-vender" type="submit">Vender Ingressos</button>
 
                 <!-- Chama a função de validação dos campos do formulário antes de enviar os dados para o servidor -->
             </form>
