@@ -1,0 +1,25 @@
+h1, h2, h3 {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+
+
+}
