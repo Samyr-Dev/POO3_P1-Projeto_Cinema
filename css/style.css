@@ -10,6 +10,13 @@ nav {
     margin-top: 20px;
 }
 
+#home, #filmes, #salas, #cadastro-sessoes, #vendas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     display: inline-block;
     margin: 10px 20px;
